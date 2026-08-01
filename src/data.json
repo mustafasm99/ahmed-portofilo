@@ -1,0 +1,208 @@
+{
+  "subscription": {
+    "expiresAt": "2026-12-31T23:59:59Z",
+    "clientName": "Web Studio"
+  },
+  "profile": {
+    "name": "AHMED JAWAD",
+    "handle": "ahmed.dev",
+    "title": "Frontend Engineer",
+    "titleRotate": [
+      "Frontend Engineer",
+      "React Specialist",
+      "UI Architect",
+      "Performance Nerd"
+    ],
+    "location": "Baghdad, Iraq",
+    "available": true,
+    "email": " ahmedjawadkadhim2003@gmail.com",
+    "github": "https://github.com/areskhalil",
+    "linkedin": "https://linkedin.com/in/areskhalil",
+    "twitter": "",
+    "avatar": "https://scontent-lis1-1.cdninstagram.com/v/t51.82787-19/619805118_18166974418399430_9057920239271855442_n.jpg?_nc_cat=110&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=cRAKJlrQf1EQ7kNvwFZy4JQ&_nc_oc=AdqAnnTh83lag-h395Y5xgzZIXgid67_N0TJ7UbBUQHAO_Xl2eES1SjivK0bQ2Yu8yc&_nc_zt=24&_nc_ht=scontent-lis1-1.cdninstagram.com&_nc_gid=TAl3g8FfyQC9YdEDWgvbnA&_nc_ss=7b6a8&oh=00_AQFI7IemTx1mjdXPMv8xs8KdeLucUA8-C27ds0Z6YwC6Ow&oe=6A73F628",
+    "bio": "Information Technology graduate with experience in software development, data analysis, customer support, and web technologies. Skilled in Python, SQL, JavaScript, HTML, CSS, and Excel, with a passion for building practical, data-driven solutions. Winner of the AI HUB 200 Hackathon and certified by Google and IBM. A collaborative problem-solver who enjoys learning new technologies, working with diverse teams, and delivering high-quality digital solutions that create real impact.",
+    "stack": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind",
+      "Framer Motion",
+      "GraphQL",
+      "Vite"
+    ]
+  },
+  "stats": [
+    { "value": "2+", "label": "Years coding", "color": "mint" },
+    { "value": "20+", "label": "Projects shipped", "color": "blue" },
+    { "value": "2.4M", "label": "Users reached", "color": "purple" },
+    { "value": "98", "label": "Lighthouse score", "color": "amber" }
+  ],
+  "skills": [
+    {
+      "category": "Core",
+      "items": [
+        { "name": "React / Next.js", "level": 96, "color": "mint" },
+        { "name": "TypeScript", "level": 92, "color": "blue" },
+        { "name": "CSS / Tailwind", "level": 94, "color": "mint" },
+        { "name": "Framer Motion", "level": 88, "color": "purple" }
+      ]
+    },
+    {
+      "category": "Ecosystem",
+      "items": [
+        { "name": "Vite / Webpack", "level": 85, "color": "amber" },
+        { "name": "GraphQL / REST", "level": 82, "color": "blue" },
+        { "name": "Testing (Vitest)", "level": 78, "color": "mint" },
+        { "name": "CI/CD / Vercel", "level": 80, "color": "purple" }
+      ]
+    },
+    {
+      "category": "Tooling",
+      "items": [
+        { "name": "Figma → Code", "level": 90, "color": "amber" },
+        { "name": "Design Systems", "level": 88, "color": "mint" },
+        { "name": "Web Performance", "level": 91, "color": "blue" },
+        { "name": "Accessibility", "level": 84, "color": "purple" }
+      ]
+    },
+    {
+      "category": "Data Analysis",
+      "items": [
+        { "name": "Data Cleaning", "level": 90, "color": "blue" },
+        { "name": "Data Transformation", "level": 88, "color": "purple" },
+        { "name": "Data Wrangling", "level": 87, "color": "mint" },
+        { "name": "Excel", "level": 92, "color": "green" },
+        { "name": "SQL", "level": 88, "color": "red" },
+        { "name": "Matplotlib", "level": 85, "color": "cyan" }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Digital Zone",
+      "role": "Advanced Achievement",
+      "period": "2026 – Present",
+      "type": "Full-time",
+      "location": "On Site",
+      "description": "Led the frontend rebuild of a SaaS analytics platform used by 200+ enterprises. Took page load from 8.2s to 1.1s.",
+      "highlights": [
+        "Developed responsive web pages and reusable UI components using modern front-end technologies such as React, Next.js, and Tailwind CSS.",
+        "Collaborated with the development team to implement clean, maintainable, and user-friendly interfaces.",
+        "Applied best practices in HTML, CSS, JavaScript, and responsive web design. ",
+        "Improved problem-solving and debugging skills while working on real-world development tasks"
+      ],
+      "tech": [
+        "vue.js",
+        "TypeScript",
+        "D3",
+        "TanStack Query",
+        "Tailwind",
+        "Vercel"
+      ]
+    },
+    {
+      "company": "Toters",
+      "role": "Client Services Engineer",
+      "period": "2025 – 2026",
+      "type": "Full-time",
+      "location": "Baghdad, Iraq",
+      "description": "Worked on the frontend of a headless Shopify storefront, achieving a 97 Lighthouse score and generating €2M in revenue in the first year.",
+      "highlights": [
+        "Order Management Agent (OMA): Learned how to work under pressure and how to make the customer happy",
+        "Managed customers orders ensuring accurate process and great experience",
+        "Provided customer support via chat and calls handling problems and complains with professionalism and empathy"
+      ],
+      "tech": []
+    },
+    {
+      "company": "Hub200",
+      "role": "AI HUB 200 Hackathon Winner",
+      "period": "2023 – 2023",
+      "type": "Independent",
+      "location": "Baghdad, Iraq",
+      "description": "Won the AI HUB 200 Hackathon, showcasing skills in AI and software development.",
+      "highlights": [
+        "Developed a program to help users find the fastest route to their destination",
+        "Provided estimated arrival times for better trip planning",
+        "Programmed using Python, HTML, CSS, and JavaScript to ensure functionality and a user-friendly interface"
+      ],
+      "tech": ["Python", "Data Analysis", "Machine Learning"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "01",
+      "title": "Ebria Route Optimization",
+      "tagline": "AI HUB 200 Hackathon Winner",
+      "description": "Developed a route optimization application that helps users find the fastest route to their destination while providing accurate estimated arrival times. Built during the AI HUB 200 Hackathon using Python for backend logic and HTML, CSS, and JavaScript for the user interface.",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
+      "tech": ["Python", "HTML", "CSS", "JavaScript"],
+      "metrics": [
+        "Hackathon Winner",
+        "Fastest Route Algorithm",
+        "ETA Prediction"
+      ],
+      "links": {
+        "live": null,
+        "github": null
+      },
+      "featured": true,
+      "color": "mint"
+    },
+    {
+      "id": "02",
+      "title": "Responsive Web Development",
+      "tagline": "Advanced Achievement Internship",
+      "description": "Designed and developed responsive web pages and reusable UI components. Collaborated with a development team to build clean, maintainable, and user-friendly interfaces while applying modern front-end development best practices.",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80",
+      "tech": ["HTML", "CSS", "JavaScript", "Responsive Design"],
+      "metrics": ["Responsive UI", "Reusable Components", "Team Collaboration"],
+      "links": {
+        "live": null,
+        "github": null
+      },
+      "featured": true,
+      "color": "blue"
+    },
+    {
+      "id": "03",
+      "title": "Excel Data Analysis Projects",
+      "tagline": "IBM Data Analysis Certificate",
+      "description": "Performed data cleaning, transformation, and analysis using Excel. Created PivotTables, applied formulas, validated datasets, and generated charts to support data-driven business decisions.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+      "tech": ["Excel", "PivotTables", "Data Cleaning", "Data Visualization"],
+      "metrics": ["Data Cleaning", "PivotTables", "Business Reports"],
+      "links": {
+        "live": null,
+        "github": null
+      },
+      "featured": false,
+      "color": "purple"
+    }
+  ],
+  "testimonials": [
+    {
+      "text": "Ares delivered the most performant frontend I've seen in 10 years. He doesn't just write code — he thinks in systems.",
+      "name": "Sara Méndez",
+      "role": "CTO, Luminary Tech",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "text": "Our Shopify store went live on time, hit 97 on Lighthouse day one, and made €2M in year one. Ares is the real deal.",
+      "name": "David Chen",
+      "role": "Founder, Craft Digital",
+      "avatar": "https://randomuser.me/api/portraits/men/75.jpg"
+    },
+    {
+      "text": "He rebuilt our entire dashboard in 10 weeks. It's faster, cleaner, and the team loves it. Rare combination of speed and quality.",
+      "name": "Leila Ahmadi",
+      "role": "Product Lead",
+      "avatar": "https://randomuser.me/api/portraits/women/68.jpg"
+    }
+  ],
+  "contact": {
+    "headline": "Let's build something fast.",
+    "subtext": "Available for senior roles, consulting, and interesting projects.",
+    "responseTime": "Replies within 24 hours"
+  }
+}

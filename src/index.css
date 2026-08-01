@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=DM+Sans:wght@300;400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after { box-sizing: border-box; scroll-behavior: smooth; }
+
+body {
+  background: #080B0F;
+  color: #E6EDF3;
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: #0D1117; }
+::-webkit-scrollbar-thumb { background: #00FF94; border-radius: 1px; }
+
+/* ── Reveal on scroll ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s cubic-bezier(0.22,1,0.36,1), transform 0.7s cubic-bezier(0.22,1,0.36,1);
+}
+.reveal.visible { opacity: 1; transform: none; }
+
+/* ── Scan line overlay ── */
+.scanline-overlay::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 50%, rgba(0,0,0,0.03) 50%);
+  background-size: 100% 4px;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.4;
+}
+
+/* ── Mint glow text ── */
+.mint-glow {
+  color: #00FF94;
+  text-shadow: 0 0 20px rgba(0,255,148,0.5), 0 0 60px rgba(0,255,148,0.2);
+}
+
+/* ── Grid dot pattern ── */
+.dot-grid {
+  background-image: radial-gradient(rgba(0,255,148,0.08) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* ── Code block ── */
+.code-card {
+  background: #0D1117;
+  border: 1px solid #21262D;
+  border-radius: 6px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* ── Card hover with mouse parallax ── */
+.tilt-card {
+  transform-style: preserve-3d;
+  transition: transform 0.1s ease;
+}
+
+/* ── Progress bar fill ── */
+@keyframes fill {
+  from { width: 0; }
+  to { width: var(--target); }
+}
+.skill-bar { animation: fill 1.2s cubic-bezier(0.22,1,0.36,1) forwards; }
