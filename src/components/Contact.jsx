@@ -10,7 +10,7 @@ export default function Contact({ profile, contact }) {
 
       <div className="relative z-10 max-w-6xl mx-auto px-6">
         <div ref={ref} className="reveal mb-16">
-          <p className="font-mono text-mint text-xs tracking-[0.3em] uppercase mb-4">// contact.init()</p>
+          <p className="font-mono text-mint text-xs tracking-[0.3em] uppercase mb-4"></p>
           <h2 className="font-display font-bold text-text" style={{ fontSize: "clamp(2.5rem,6vw,4.5rem)" }}>
             {contact.headline}
           </h2>

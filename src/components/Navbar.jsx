@@ -16,7 +16,7 @@ export default function Navbar({ profile }) {
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${scrolled ? "bg-void/90 backdrop-blur-xl border-b border-wire" : ""}`}>
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="font-mono text-sm text-mint tracking-wider flex items-center gap-2">
+        <a href="#base" className="font-mono text-sm text-mint tracking-wider flex items-center gap-2">
           <span className="w-2 h-2 rounded-full bg-mint animate-pulse" />
           {profile.handle}
         </a>

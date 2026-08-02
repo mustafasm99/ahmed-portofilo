@@ -69,7 +69,7 @@ export default function Projects({ projects }) {
     <section id="projects" className="py-24 bg-dark border-t border-wire">
       <div className="max-w-6xl mx-auto px-6">
         <div ref={ref} className="reveal mb-16">
-          <p className="font-mono text-mint text-xs tracking-[0.3em] uppercase mb-4">// projects.filter(featured)</p>
+          <p className="font-mono text-mint text-xs tracking-[0.3em] uppercase mb-4"></p>
           <h2 className="font-display font-bold text-text" style={{ fontSize: "clamp(2rem,5vw,3.5rem)" }}>
             Selected Work
           </h2>

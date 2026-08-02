@@ -60,7 +60,7 @@ export default function Hero({ profile, stats }) {
             </motion.div>
 
             <motion.div variants={item}>
-              <p className="font-mono text-muted text-sm mb-2">// Hello, I'm</p>
+              <p className="font-mono text-muted text-sm mb-2"></p>
               <h1 className="font-display font-bold text-text leading-[0.92] tracking-tight mb-4"
                 style={{ fontSize: "clamp(3rem, 8vw, 5.5rem)" }}>
                 {profile.name}
@@ -119,7 +119,7 @@ export default function Hero({ profile, stats }) {
                 {profile.stack.slice(0, 4).map((s, i) => (
                   <div key={i} className="pl-8"><span className="text-amber">"{s}"</span><span className="text-subtle">,</span></div>
                 ))}
-                <div className="pl-8"><span className="text-muted">// + {profile.stack.length - 4} more</span></div>
+                <div className="pl-8"><span className="text-muted"> </span></div>
                 <div className="pl-4"><span className="text-text">],</span></div>
                 <div className="pl-4"><span className="text-blue">passion</span><span className="text-subtle">:</span><span className="text-amber"> "Performance &amp; UX"</span></div>
                 <div><span className="text-text">{"}"}</span></div>
